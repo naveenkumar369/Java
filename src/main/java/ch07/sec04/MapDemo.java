@@ -27,7 +27,8 @@ public class MapDemo {
             process(key, value);
         }
 
-        counts.forEach((k, v) -> process(k, v));
+        counts.forEach((key, value) -> process(key, value));
+
 
     }
 
